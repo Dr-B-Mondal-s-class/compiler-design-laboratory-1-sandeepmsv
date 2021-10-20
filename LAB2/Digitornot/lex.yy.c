@@ -28,7 +28,7 @@
 #define YY_USE_PROTOS
 
 /* The "const" storage-class-modifier is valid. */
-#define YY_USE_CONST
+#define YY_USE_CONST 
 
 #else	/* ! __cplusplus */
 
