@@ -7,7 +7,7 @@ float {int}+"."{int}
 %%
 {int} {printf("%s int type",yytext);}
 {float} {printf("%s float type",yytext);}
-.+  {printf("%s not int and not float type",yytext)}
+.+  {printf("%s not int and not float type",yytext);}
 %%
 int main(){
 
