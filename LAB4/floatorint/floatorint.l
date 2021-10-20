@@ -11,7 +11,7 @@ float {int}+"."{int}
 %%
 int main(){
 
-    yytext();
+    yylex();
     return 0;
 
 }
