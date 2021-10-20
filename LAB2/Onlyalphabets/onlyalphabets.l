@@ -3,7 +3,7 @@
     
 %}
 %%
-[a-zA-z]+ {printf(" %s : contains only alphabets",yytext);}
+[a-zA-z]+ {printf(" %s : contains only alphabets",yytext);} 
 .* {printf("invalid input string");}
 
 %%
