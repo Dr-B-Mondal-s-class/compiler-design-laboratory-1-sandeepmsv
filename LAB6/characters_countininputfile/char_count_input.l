@@ -1,6 +1,6 @@
 %{
      #include<stdio.h>
-     //lex program to count the number of character from given input file
+     //lex program to count the number of character from  input file
      int ch_count=0;
 %}
 %%
