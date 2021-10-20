@@ -104,7 +104,7 @@ extern FILE *yyin, *yyout;
 #define EOB_ACT_CONTINUE_SCAN 0
 #define EOB_ACT_END_OF_FILE 1
 #define EOB_ACT_LAST_MATCH 2
-
+ 
 /* The funky do-while in the following #define is used to turn the definition
  * int a single C statement (which needs a semi-colon terminator).  This
  * avoids problems with code like:
