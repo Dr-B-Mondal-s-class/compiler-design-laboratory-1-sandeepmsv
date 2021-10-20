@@ -1,5 +1,5 @@
 %{
-     //lex program to identify a string is a valid mobile number or not
+     //lex program to identify a input string is a valid mobile number or not
 
 %}
 
