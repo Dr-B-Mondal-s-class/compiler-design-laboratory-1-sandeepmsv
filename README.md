@@ -5,7 +5,6 @@
 
 
  | NAME    | M.S.V.Sandeep   |
- |---------------------------|
  | REG.NO  | 2019UGCS056R    |
  | SUBJECT | Compiler Design |
  | SUBJCODE|  CS324          |
