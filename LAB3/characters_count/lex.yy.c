@@ -130,7 +130,7 @@ extern FILE *yyin, *yyout;
 		yy_c_buf_p = yy_cp = yy_bp + n - YY_MORE_ADJ; \
 		YY_DO_BEFORE_ACTION; /* set up yytext again */ \
 		} \
-	while ( 0 )
+	while ( 0 ) 
 
 #define unput(c) yyunput( c, yytext_ptr )
 
