@@ -1,6 +1,6 @@
 ##  LAB2
 
-## 2.1)  Lex program to check whether the input is a digit or not.[link](.https://github.com/Dr-B-Mondal-s-class/compiler-design-laboratory-1-sandeepmsv/blob/main/LAB2/Digitornot)
+## 2.1)  Lex program to check whether the input is a digit or not. [link](https://github.com/Dr-B-Mondal-s-class/compiler-design-laboratory-1-sandeepmsv/blob/main/LAB2/Digitornot)
 
   Sample Input:
        
