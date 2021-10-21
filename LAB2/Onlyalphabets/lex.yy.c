@@ -267,7 +267,7 @@ typedef int yy_state_type;
 extern char *yytext;
 #define yytext_ptr yytext
 
-static yy_state_type yy_get_previous_state YY_PROTO(( void ));
+static yy_state_type yy_get_previous_state YY_PROTO(( void )); 
 static yy_state_type yy_try_NUL_trans YY_PROTO(( yy_state_type current_state ));
 static int yy_get_next_buffer YY_PROTO(( void ));
 static void yy_fatal_error YY_PROTO(( yyconst char msg[] ));
