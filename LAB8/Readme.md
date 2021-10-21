@@ -36,7 +36,7 @@
            The input string is not pallindrome: ramu
 
 
-##  8.3) YACC Program which accepts strings that starts and ends with 0 or 1
+##  8.3) YACC Program which accepts strings that starts and ends with 0 or 1. ([link](./endswith0or1))
 
 
        Sample Input: 
