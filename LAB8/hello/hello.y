@@ -19,5 +19,5 @@ hi:
         HI     { printf("Hello World\n");   }
         ;
 bye:    
-        BYE    { printf("Bye World\n"); exit(0); }
+        BYE    { printf("Bye World\n"); exit(0); } 
          ;
