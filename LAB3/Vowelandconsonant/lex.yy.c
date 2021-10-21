@@ -59,7 +59,7 @@
 #ifdef YY_USE_PROTOS
 #define YY_PROTO(proto) proto
 #else
-#define YY_PROTO(proto) ()
+#define YY_PROTO(proto) () 
 #endif
 
 /* Returned upon end-of-file. */
