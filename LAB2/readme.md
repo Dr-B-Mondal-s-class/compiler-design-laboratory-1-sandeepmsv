@@ -4,11 +4,14 @@
 
   Sample Input:
        abc
+       
        123
+       
        abcd123
+       
        1234
 
- Sample Output:
+ Sample Output:\
       alphabet.
       digit.
       neither alphabet nor digit.
