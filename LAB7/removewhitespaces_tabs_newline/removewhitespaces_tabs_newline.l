@@ -17,7 +17,7 @@ return 1;
 int main(void)
 {
    yyin=fopen("input.txt","r");		
-   yyout=fopen("output.txt","w");
+   yyout=fopen("output.txt","w"); 
 
    yylex();
    return 0;
