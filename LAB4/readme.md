@@ -1,4 +1,4 @@
-##LAB4 
+## LAB4 
 
 ## 4.1) Lex program detect  type of operator. ([link](./Operator))
 
