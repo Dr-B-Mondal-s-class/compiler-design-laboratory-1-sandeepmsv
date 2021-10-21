@@ -1,29 +1,31 @@
 ##  LAB2
 
-## 2.1)  Lex program to checks whether input string contains alphabets or digits
+## 2.1)  Lex program to check whether the input is a digit or not.([link](.\Digitornot))
 
   Sample Input:
        
-       abc
+       12
        
-       123
+       1  
        
-       abcd123
+       9
        
-       1234
+       \
+       
+       app
 
  Sample Output:
  
-      alphabet.
+      12  is a  digit
       
-      digit.
+      9  is a  digit
       
-      neither alphabet nor digit.
+      \       not a digit
       
-      digit.
+      app     not a digit
       
       
-## 2.2) Lex program to check whether the input string contains lower-case or upper-case letters.
+## 2.2) Lex program to check whether the input string contains lower-case or upper-case letters.([link](./LowercaseorUppercase))
  
  Sample Input:
      
@@ -37,11 +39,33 @@
  
  Sample Output:
  
-    Sandeep: contains both lower and upper case alphabets
+     Sandeep: contains both lower and upper case alphabets
     
-    RAMU:contains all uppercase alphabets
+     RAMU:contains all uppercase alphabets
     
-    ramu:contains all lower case alphabets
+     ramu:contains all lower case alphabets
     
-    character other than alphabets
+     character other than alphabets
+    
+
+## 2.3) Lex program  to check whether the input string contains only alphabets or not.([link](./Onlyalphabets))
+
+   
+   Sample Input:
+   
+      aeiou
+      
+      abc123
+      
+      alphabet
+    
+   Sample Output:
+   
+      aeiou : contains only alphabets
+      
+      invalid input string
+      
+      alphabet : contains only alphabets
+       
+       
        
