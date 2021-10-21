@@ -1,6 +1,6 @@
 %{
     #include<stdio.h>
-    //
+    // lex program to remove whitespaces,tabs,newline in input file and output into output file
 %}
 
 %%
