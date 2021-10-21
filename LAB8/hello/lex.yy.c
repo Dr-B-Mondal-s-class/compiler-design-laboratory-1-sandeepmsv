@@ -190,7 +190,7 @@ struct yy_buffer_state
 	 * shouldn't try reading from the input source any more.  We might
 	 * still have a bunch of tokens to match, though, because of
 	 * possible backing-up.
-	 *
+	 * 
 	 * When we actually see the EOF, we change the status to "new"
 	 * (via yyrestart()), so that the user can continue scanning by
 	 * just pointing yyin at a new input file.
