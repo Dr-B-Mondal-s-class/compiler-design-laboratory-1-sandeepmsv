@@ -65,7 +65,7 @@
       
       invalid input string
       
-      alphabet : contains only alphabets
+      alphabet : contains only alphabets 
        
        
        
