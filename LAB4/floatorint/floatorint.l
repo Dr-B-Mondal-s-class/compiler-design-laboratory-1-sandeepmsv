@@ -10,7 +10,7 @@ float {int}+"."{int}
 .+  {printf("%s not int and not float type",yytext);}
 %%
 int main(){
-
+ 
     yylex();
     return 0;
 
