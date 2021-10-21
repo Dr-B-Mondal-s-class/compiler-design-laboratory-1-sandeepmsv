@@ -16,4 +16,4 @@ int main(){
     fclose(yyin);
     printf("no of characters:%d\n\n",ch_count);
     return 0;
-}
+} 
