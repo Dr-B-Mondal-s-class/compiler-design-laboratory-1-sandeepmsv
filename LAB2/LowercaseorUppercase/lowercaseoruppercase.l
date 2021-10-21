@@ -8,7 +8,7 @@
 [a-z]+ {printf("%s:contains all lower case alphabets",yytext);}
 [A-Z]+ {printf("%s:contains all uppercase alphabets",yytext);}
 [a-zA-Z]+ {printf("%s: contains both lower and upper case alphabets",yytext);}
-.* {printf("character other than alphabets");}
+.* {printf("characters other than alphabets");}
 
 %%
 int yywrap(void){
