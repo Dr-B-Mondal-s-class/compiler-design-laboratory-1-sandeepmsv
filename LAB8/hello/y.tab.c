@@ -183,7 +183,7 @@ typedef short int yytype_int16;
 #  if ENABLE_NLS
 #   include <libintl.h> /* INFRINGES ON USER NAME SPACE */
 #   define YY_(msgid) dgettext ("bison-runtime", msgid)
-#  endif
+#  endif 
 # endif
 # ifndef YY_
 #  define YY_(msgid) msgid
