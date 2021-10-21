@@ -52,7 +52,7 @@
 #ifdef YY_USE_CONST
 #define yyconst const
 #else
-#define yyconst
+#define yyconst 
 #endif
 
 
