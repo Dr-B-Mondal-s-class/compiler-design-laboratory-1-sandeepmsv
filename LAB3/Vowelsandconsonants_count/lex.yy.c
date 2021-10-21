@@ -32,7 +32,7 @@
 
 #else	/* ! __cplusplus */
 
-#if __STDC__
+#if __STDC__ 
 
 #define YY_USE_PROTOS
 #define YY_USE_CONST
