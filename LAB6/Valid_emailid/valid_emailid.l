@@ -3,7 +3,7 @@
 %}
 
 em_name [a-zA-Z0-9][a-zA-Z0-9\-\.\_\+]*
-domain "com"|"net"|"org"
+domain "com"|"net"|"org"|"in"
 email {em_name}@{em_name}\.{domain}
 %%
 
