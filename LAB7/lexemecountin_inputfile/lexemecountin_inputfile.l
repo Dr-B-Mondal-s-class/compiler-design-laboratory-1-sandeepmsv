@@ -26,7 +26,7 @@ seperators [(){}|, ;]
 int main() {
     yyin = fopen("input.txt", "r");
     yylex();
-     printf("Total no. of lexemes = %d\n", total_count);
+     printf("Total no. of lexemes = %d\n", total_count); 
      fclose(yyin);
     
     return 0;
