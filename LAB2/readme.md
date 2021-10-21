@@ -1,6 +1,6 @@
 ##  LAB2
 
-## 2.1)  Lex program to check whether the input is a digit or not.([link](.\Digitornot))
+## 2.1)  Lex program to check whether the input is a digit or not.[link](.\Digitornot)
 
   Sample Input:
        
