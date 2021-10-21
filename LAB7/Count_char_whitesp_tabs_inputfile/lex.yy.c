@@ -31,7 +31,7 @@
 #define YY_USE_CONST
 
 #else	/* ! __cplusplus */
-
+ 
 #if __STDC__
 
 #define YY_USE_PROTOS
