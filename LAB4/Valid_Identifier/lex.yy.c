@@ -35,7 +35,7 @@
 #if __STDC__
 
 #define YY_USE_PROTOS
-#define YY_USE_CONST
+#define YY_USE_CONST 
 
 #endif	/* __STDC__ */
 #endif	/* ! __cplusplus */
