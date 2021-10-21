@@ -29,7 +29,7 @@ S:E {
             }
             else{
                 flag=0;
-                break;
+                break; 
             }
         }
     }
