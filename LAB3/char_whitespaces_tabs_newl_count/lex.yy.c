@@ -32,7 +32,7 @@
 
 #else	/* ! __cplusplus */
 
-#if __STDC__ 
+#if __STDC__
 
 #define YY_USE_PROTOS
 #define YY_USE_CONST
@@ -357,9 +357,9 @@ static char *yy_last_accepting_cpos;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "countchar_spaces_tabs.l"
+#line 1 "char_whitespaces_tabs_newl_count.l"
 #define INITIAL 0
-#line 2 "countchar_spaces_tabs.l"
+#line 2 "char_whitespaces_tabs_newl_count.l"
  //program to count whitespaces,tabes,characters in input string
  #include <stdio.h>
  int c_ch=0,c_tabs=0,c_spaces=0;
@@ -515,7 +515,7 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 7 "countchar_spaces_tabs.l"
+#line 7 "char_whitespaces_tabs_newl_count.l"
 
 #line 521 "lex.yy.c"
 
@@ -602,30 +602,30 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 8 "countchar_spaces_tabs.l"
+#line 8 "char_whitespaces_tabs_newl_count.l"
 {c_spaces++;}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 9 "countchar_spaces_tabs.l"
+#line 9 "char_whitespaces_tabs_newl_count.l"
 {c_tabs++;}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 10 "countchar_spaces_tabs.l"
+#line 10 "char_whitespaces_tabs_newl_count.l"
 {c_ch++;}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 11 "countchar_spaces_tabs.l"
-{printf("characters count:%d",c_ch);
-    printf("tabs count:%d",c_tabs);
-    printf("spaces count:%d\n",c_spaces);
+#line 11 "char_whitespaces_tabs_newl_count.l"
+{printf("\ncharacters count:%d",c_ch);
+    printf("\ntabs count:%d",c_tabs);
+    printf("\nspaces count:%d\n",c_spaces);
     c_spaces=0;c_tabs=0;c_ch=0;}
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 15 "countchar_spaces_tabs.l"
+#line 15 "char_whitespaces_tabs_newl_count.l"
 ECHO;
 	YY_BREAK
 #line 632 "lex.yy.c"
@@ -1514,7 +1514,7 @@ int main()
 	return 0;
 	}
 #endif
-#line 15 "countchar_spaces_tabs.l"
+#line 15 "char_whitespaces_tabs_newl_count.l"
 
 int yywrap(void){
     return 0;
@@ -1524,3 +1524,4 @@ int main(){
     yylex();
     return 0;
 }
+

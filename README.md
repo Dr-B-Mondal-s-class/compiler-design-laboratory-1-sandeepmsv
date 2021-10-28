@@ -10,5 +10,3 @@
  | Subject | Compiler Design |
  | Subject code|  CS324   |
  | Faculty| Dr. Bhaskar Mondal|
-
- 
